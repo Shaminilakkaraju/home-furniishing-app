@@ -1,0 +1,118 @@
+.user-profile-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section p {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .edit-profile-button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(232, 111, 41);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 20px;
+  }
+  
+  .form-input {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .save-button,
+  .cancel-button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(232, 111, 41);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 20px;
+  margin-top: 10px;
+  }
+  
+  .cancel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(232, 111, 41);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-right: 20px;
+  }
+  
+  .past-orders {
+    margin-top: 20px auto;
+  }
+  
+  .order-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .order-details {
+    margin-top: 10px;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .item-image {
+    margin-right: 10px;
+  }
+  
+  .item-image img {
+    width: 80px;
+    height: auto;
+  }
+  
+  .order-item-details {
+    flex: 1;
+  }
+  
+  .order-item-button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(232, 111, 41);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-right: 20px;
+  }
+  

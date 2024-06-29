@@ -1,0 +1,169 @@
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .product-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .product-header h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .wishlist-icon-container {
+    font-size: 24px;
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  .product-image {
+    margin-bottom: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    width: 100%;
+  }
+  
+  .product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .product-info p {
+    margin-bottom: 10px;
+  }
+  
+  .product-ratings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .star-ratings {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-icon {
+    color: #ffc107;
+    margin-right: 2px;
+  }
+  
+  .star-icon.filled {
+    color: #ffc107;
+  }
+  
+  .star-icon.half-filled {
+    color: #ffc107;
+  }
+  
+  .star-icon.empty {
+    color: #e0e0e0;
+  }
+  
+  .product-reviews {
+    margin-bottom: 20px;
+  }
+  
+  .review-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-card .customer-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .review-card .star-ratings {
+    margin-top: 4px;
+  }
+  
+  .review-card .review-text {
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+  
+  .add-to-cart,
+  .view-all-products {
+    background-color: rgb(232, 111, 41);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (max-width: 800px) {
+    .product-details {
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .product-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .wishlist-icon-container {
+      margin-top: 10px;
+    }
+  
+    .product-info {
+      font-size: 14px;
+    }
+  
+    .product-description,
+    .product-reviews {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .product-header h2 {
+      font-size: 20px;
+    }
+  
+    .wishlist-icon-container {
+      font-size: 20px;
+    }
+  
+    .product-price {
+      font-size: 18px;
+    }
+  }
